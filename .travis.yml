@@ -12,5 +12,4 @@ before_script:
   - flake8 --max-complexity=15 --exclude=*.txt,*.md *
 
 script: 
-   - cd test
-   - python testfigura.py -v
+   - python testfigura.py
